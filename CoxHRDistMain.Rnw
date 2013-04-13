@@ -1,0 +1,36 @@
+##############
+# Show the Distribution, Not the Interval: Communicating Uncertainty in Epidemiology
+# Christopher Gandrud
+# 13 April 2013
+##############
+
+% !Rnw weave = knitr
+
+\documentclass[a4paper]{article}
+\usepackage{fullpage}
+\usepackage[authoryear]{natbib}
+\usepackage{setspace}
+    \doublespacing
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=cyan,
+    urlcolor=cyan
+}
+\usepackage{dcolumn}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{tikz}
+\usepackage{todonotes}
+\usepackage[utf8]{inputenc} 
+
+% Set knitr global options
+<<ParentGlobalOpts, echo=FALSE>>=
+    opts_chunk$set(concordance=TRUE)
+    opts_chunk$set(fig.align='center')
+@
+
+%%%%%%% Title Page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
