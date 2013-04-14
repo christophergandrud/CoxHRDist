@@ -45,7 +45,8 @@
 %%%%%%%%%%%% Abstract %%%%%%%%%%%%%%%
 \begin{abstract}
 \noindent\emph{Working Draft. Comments Welcome.}
-\paragraph{Background}
+
+\paragraph{Background} Cox Proportional Hazards (Cox-PH) models are commonly used in epidemiology to assess the what factors change the time to an event, e.g. recurrence of cancer or mortality. Hazard ratios and 95 percent confidence intervals are commonly used to report results estimated from these Cox-PH models. However, confidence intervals can give misleading impressions of the likely hazard ratio. This is because hazard ratios are can be from asymmetric (exponential) distributions bounded by zero. 
 
 \paragraph{Methods}
 
