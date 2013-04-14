@@ -1,14 +1,13 @@
 ##############
-# Show the Distribution, Not the Interval: Communicating Uncertainty in Epidemiology
+# Show the Distribution, Not Just the Interval: Communicating Uncertainty in Cox Proportional Hazards Models
 # Christopher Gandrud
-# 13 April 2013
+# 14 April 2013
 ##############
 
 % !Rnw weave = knitr
 
 \documentclass[a4paper]{article}
 \usepackage{fullpage}
-\usepackage[authoryear]{natbib}
 \usepackage{setspace}
     \doublespacing
 \usepackage[usenames,dvipsnames]{xcolor}
@@ -34,3 +33,30 @@
 @
 
 %%%%%%% Title Page %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{Show the Distribution, Not Just the Interval: Communicating Uncertainty in Cox Proportional Hazards Models}
+
+\author{Christopher Gandrud \\
+		{\emph{Yonsei University}}}
+
+\begin{document}
+
+\maketitle
+
+%%%%%%%%%%%% Abstract %%%%%%%%%%%%%%%
+\begin{abstract}
+\noindent\emph{Working Draft. Comments Welcome.}
+\paragraph{Background}
+
+\paragraph{Methods}
+
+\paragraph{Results}
+
+\paragraph{Conclusion}
+\end{abstract}
+
+\begin{description}
+	\item [{\textbf{Keywords:}}] Cox Proportional Hazards model, uncertainty, simulations
+\end{description}
+
+
+\end{document}
